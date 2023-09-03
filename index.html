@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scisscor</title>
-    <script src="myscripts.js"></script>
+    <script src="myscripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="containor">
+        <div class="header">
+            <h1 class="game-title">Rock
+                <span class="game-paper">Paper</span>
+                Scissors
+            </h1>
+        </div>
+        <div class="body">
+            <div class="btns">
+                <div class="btnRock"><img src="/images/rock-icon.svg" alt=""></div>
+                <div class="btnPaper"><img src="/images/paper-icon.svg" alt=""></div>
+                <div class="btnScissor"><img src="/images/scissor-icon.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div class="player-score">
+                <div class="image">
+                    <img src="images/boy-eyeglasses-icon.svg" alt="" srcset="">
+                </div>
+                <p class="score"></p>
+                <p class="player-points points">Point: 0</p>
+            </div>
+            <div class="computer-score">
+                <div class="image">
+                    <img src="images/robot-line-icon.svg" alt="">
+                </div>
+                <p class="score"></p>
+                <p class="computer-points points">Point: 0</p>
+            </div>
+        </div>
+        <div class="result">
+            <h2>Result</h2>
+            <p class="result-text">Choose an option to start <br> <strong style="color: rgba(165, 42, 42, 0.644);">You
+                    need 5 points to win</strong></p>
+        </div>
+    </div>
 </body>
+
 </html>

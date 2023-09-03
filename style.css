@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f0f0f0;
+}
+
+div.containor {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/shapelined-_JBKdviweXI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    ;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.game-title {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.game-paper {
+    color: #00aaff;
+}
+
+div.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 11px;
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+
+.btnRock, .btnPaper, .btnScissor {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+
+.btnRock:hover, .btnPaper:hover, .btnScissor:hover {
+    background-color: #ddd;
+}
+
+.btnRock:active, .btnPaper:active, .btnScissor:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.btnPaper img,
+.btnRock img,
+.btnScissor img {
+    height: 35%;
+}
+
+
+div img {
+    width: 50%;
+    height: 20%;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.score-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.player-score,
+.computer-score {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    flex-direction: column;
+    width: 15%;
+}
+
+.player-score {
+    background-color: #e6f7ff;
+
+}
+
+.computer-score {
+    background-color: #ffe6e6;
+
+}
+
+.points {
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+.result {
+    text-align: center;
+    background-color: #ddd9d9;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score,
+.result-text {
+    font-size: 24px;
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: 'Black Ops One';
+}
+
+.restart {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+
+.restart:hover {
+    background-color: #ddd;
+}
+
+.restart:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+
