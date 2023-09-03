@@ -178,4 +178,12 @@ div img {
     height: auto;
 }
 
+.rights{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+hr{
+    width: 90%;
+}
 
